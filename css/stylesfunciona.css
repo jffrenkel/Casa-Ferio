@@ -1,0 +1,714 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+/*----HEADER/NAV-----*/
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #659dbd;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.header nav ul li {
+    margin: 15px;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+/*---- MAIN ----*/
+
+
+
+
+.hero {
+    width: 100%;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.117), rgba(0, 0, 0, 0.194)), url("../Images/portada1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.hero p {
+    font-size: 30px;
+}
+
+.hero a {
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.como_funciona .howitworks {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.fondo_color {
+    display: inline-block;
+    color: black;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 15px;
+    text-align:justify;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.section_one {
+    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+    background-position: center;
+    background-color: white;  
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "funciona1 funciona2 funciona3"
+}
+
+.funciona1 {
+    grid-area: funciona1;
+    background-color: black;
+}
+
+.funciona2 {
+    grid-area: funciona2;
+}
+
+.funiona3 {
+    grid-area: funciona3;
+}
+
+.section_one .productos {
+    background-color:rgb(200, 39, 39);
+    width: auto;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+}
+
+
+.section_one .canales_venta {
+    background-color: rgb(255, 115, 0);
+    display: inline-block;
+    border-radius: 30px;
+    padding: 3px;
+    color: white;
+}
+
+
+.section_one .despacho {
+    background-color:#23af60;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+}
+
+
+.section_one > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.section_one > div > img {
+    border-radius: 150px;
+    width: auto;
+    height: 250px;
+    margin-top: 10px;
+}
+
+
+
+.section_one div .tituloParrafo h2 {
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.section_one p {
+    margin-top: 25px;
+}
+
+.section_one div p {
+    font-weight: lighter;
+    
+}
+
+.section_one > div > .tituloParrafo {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 50px;
+}
+
+
+.section_two > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.section_two > div img {
+    border-radius: 500px;
+    width: 200px;
+    height: 200px;
+}
+
+.section_three > div {
+    display: flex;
+    align-items: center;
+}
+
+.section_three > div img {
+    border-radius: 150px;
+    width: 400px;
+    height: 200px;
+}
+
+.section_extra {
+    width: 100%;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.405), rgba(0, 0, 0, 0.405)), url(../Images/portada3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.section_extra > div > .tituloParrafo2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.section_extra a {
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 30px;
+    line-height: 100px;
+    border: 2px solid;
+
+}
+
+
+
+/*---- FOOTER ---- */
+
+
+
+.footer {
+    background-color: rgb(68, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer > img {
+    width: 250px;
+    height: 150px;
+}
+
+.footer div a img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px pink;
+    
+}
+
+.footer ul li a:hover{
+    color: pink;
+    transition: 1s;
+    text-shadow: none;
+
+}
+
+
+/*----- Sostenibilidad -----*/
+
+
+.sostenibilidad_one {
+    width: 100%;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.507)), url(../Images/portada2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sostenibilidad_one > div > .tituloParrafo2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sostenibilidad_one a {
+    background-color: pink;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 30px;
+    line-height: 100px;
+    border: 2px solid;
+}
+
+.sostenibilidad_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #F4F4F4;
+    height: 80vh;
+}
+
+.sostenibilidad_two > .tituloParrafo2 {
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.sostenibilidad_two > .tituloParrafo2 > h2 {
+    height: 60px;
+}
+
+.sostenibilidad_two p {
+    font-weight: lighter;
+    margin-top: 5px;
+
+}
+.sostenibilidad_two a {
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    line-height: 120px;
+    font-weight: lighter;
+}
+
+.sostenibilidad_three {
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+   
+}
+
+.sostenibilidad_three > .fotossostenibilidad {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 200px;
+
+  
+}
+.sostenibilidad_three ol li .tituloParrafo4 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+    right: 200px;
+    text-align: center;
+}
+
+.sostenibilidad_three h2 {
+    height: 30px;
+}
+.sostenibilidad_three p {
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+
+.sostenibilidad_three li {
+    display: flex;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: center;
+    justify-content: center;
+  
+ 
+
+}
+.sostenibilidad_three img {
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+    justify-content: left;
+}
+
+
+
+
+
+
+/*----- SUGERENCIAS -----*/
+
+
+
+
+
+
+
+
+.sugerencias_one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        color: white;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.577), rgba(0, 0, 0, 0.507)), url(../Images/preba1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-color: #F4F4F4;
+        height: 80vh;
+    }
+
+ 
+.sugerencias_one h1 {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.sugerencias_one h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.sugerencias_vendedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    height: 80vh;
+}
+
+.sugerencias_vendedor .vendedor_prueba {
+    display: inline-block;
+    background-color: #28d975;
+    color: white;
+    border-radius: 25px;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align:center;
+    margin: 50px;
+    margin-top: 100px;
+
+}
+
+.sugerencias_vendedor h3 {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    flex-direction: column;  
+}
+
+.sugerencias_vendedor .suge {
+        margin-top: 45px;
+
+}
+
+.sugerencias_vendedor img {
+    margin-top: 120px;
+}
+
+.sugerencias_vendedor ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: start;
+    margin-left: 150px;
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+.sugerencias_vendedor li {
+    margin-top: 50px;
+}
+
+
+
+.sugerencias_comprador {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-color: #F4F4F4;
+}
+
+.sugerencias_comprador .comprador_prueba {
+    display: inline-block;
+    background-color: #28d975;
+    color: white;
+    border-radius: 25px;
+    font-weight: lighter;
+    text-align:center;
+    margin: 50px;
+    margin-top: 90px;
+    padding: 0;
+
+}
+
+
+
+.sugerencias_comprador img {
+    margin-top: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150%;
+}
+
+
+.sugerencias_comprador h3 {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    flex-direction: column;
+
+    
+}
+
+.sugerencias_comprador ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: start;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 140px;
+
+}
+
+.sugerencias_comprador li {
+    margin-top: 60px;
+}
+
+
+/*----- NOSOTROS ----- */
+
+
+.equipo_parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.equipo_principio {
+    background-color: white;
+}
+
+.equipo_principio .equipo_parrafo {
+    margin-top: 20px;
+}
+
+.equipo_parrafo h2 {
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+.sobre_nosotros {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+    font-size: 40px;
+    justify-content: center;
+    background-color: #F4F4F4;
+}
+
+.sobre_nosotros p {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.equipo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 80vh;
+    font-size: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: white;
+}
+
+.equipo_principio .equipo1 p {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+.equipo1 img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 30px;
+}
+
+.equipo2 img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 30px;
+    image-rendering: high-quality;
+}
+
+.equipo_principio .equipo2 p {
+    font-size: 25px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.donde_estamos {
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    height: 10vh;
+    
+}
+
+.tododondeestamos {
+    background-color: #F4F4F4
+}
+
+
+
+
+/*----- CONTACTO -----*/
+
+.main_contacto {
+    background-color: #F4F4F4;
+}
+
+
+@media (min-width: 361px) and (max-width: 768px){
+    .section_one{
+        grid-template-areas: 
+                            "funciona1 funciona2 funciona3";
+    }
+}
+
+@media (max-width: 360px){
+    .section_one{
+        grid-template-areas: 
+                            "funciona1"
+                            "funciona2"
+                            "funciona3";
+    }
+}
