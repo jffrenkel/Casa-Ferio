@@ -64,7 +64,18 @@
 .hero h1 {
     font-size: 60px;
     font-weight: bold;
+    animation-duration: 5s;
+    animation-name: casitaferio2;
+    animation-iteration-count: infinite;
+}
 
+@keyframes casitaferio2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
