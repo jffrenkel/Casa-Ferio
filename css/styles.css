@@ -60,14 +60,28 @@
     background-attachment: fixed;
 }
 
+
 .hero h1 {
     font-size: 60px;
     font-weight: bold;
 
 }
 
+
 .hero p {
     font-size: 30px;
+    animation-duration: 5s;
+    animation-name: casitaferio;
+    animation-iteration-count: infinite;
+}
+
+@keyframes casitaferio {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .hero a {
@@ -82,10 +96,22 @@
 }
 
 .como_funciona .howitworks {
+    animation-duration: 3s;
+    animation-name: Comofunciona;
+    animation-iteration-count: infinite;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
     margin-right: 50px;
+}
+
+@keyframes Comofunciona {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .fondo_color {
@@ -111,14 +137,22 @@
 }
 
 .section_one .productos {
+    transition: height 2s;
     background-color:rgb(200, 39, 39);
     width: auto;
     display: inline-block;
     border-radius: 30px;
     padding: 5px;
     color: white;
+    width: 150px;
+    height: 100px;
+    transition: height 2s, width 1s;
 }
 
+.section_one .productos:hover {
+    height: 100px;
+    width: 200px;
+}
 
 .section_one .canales_venta {
     background-color: rgb(255, 115, 0);
@@ -126,8 +160,15 @@
     border-radius: 30px;
     padding: 3px;
     color: white;
+    width: 180px;
+    height: 100px;
+    transition: height 2s, width 1s;
 }
 
+.section_one .canales_venta:hover {
+    height: 100px;
+    width: 200px;
+}
 
 .section_one .despacho {
     background-color:#23af60;
@@ -135,8 +176,15 @@
     border-radius: 30px;
     padding: 5px;
     color: white;
+    width: 150px;
+    height: 100px;
+    transition: height 2s, width 1s;
 }
 
+.section_one .despacho:hover {
+    height: 100px;
+    width: 200px;
+}
 
 .section_one > div {
     display: flex;
