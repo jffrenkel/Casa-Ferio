@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CasaFerio</title>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header class="header">
+    <div class="container-fluid px-0">
+    <header class="row header">
         <img src="../Images/logocasa.png" alt="logocasaferio">
         <nav>
            <ul>
@@ -22,21 +23,22 @@
         </nav>
     </header>
 
-    <main>
+    <main class="row">
         
-    <section class="sugerencias_one">
+    <section class="col-lg-12 sugerencias_one">
         <h1>Sugerencias para un buen uso de la plataforma</h1>
         <h2> Consejor para que tu  experiencia sea la mejor posible. </h2>
     </section>
+    </main>
 
-    <section>
-        <article class="sugerencias_vendedor">
-            <div class="suge">
+        <div class="vendedorimg1">
+
+        <article class="row sugerencias_vendedor">
+            <div class="col-lg-6 col-md-12 col-sm-12 suge">
                 <span class="vendedor_prueba"><h3>Si eres vendedor te recomendamos</h3></span>
-                <img src="../Images/1sugeren.png" alt="">
            </div>
             
-            <ul>
+            <ul class="col-lg-6 col-md-12 col-sm-12">
                 <li>Empaqueta bien el producto que vendes para que no sufra daños.</li>
         
                 <li>saca una foto del producto y guardarla para demostrar el estado real del producto.</li>
@@ -46,14 +48,16 @@
                 <li>El pago al vendedor se realizará mediante una transferencia dentro de los siguientes 2 días habiles de haber realizado la entrega.</li>
             </ul>
         </article>
+    </div>
 
-        <articles class="sugerencias_comprador">
-            <div class="suge2">
+
+
+        <articles class="row sugerencias_comprador">
+            <div class="col-lg-6 suge2">
             <span class="comprador_prueba"><h3>Si eres comprador te recomendamos</h3></span>
-            <img src="../Images/icono2.jpg" alt="">
             </div>
 
-            <ul>
+            <ul class="col-lg-6">
                 <li>Preocúpate de que haya alguien en la dirección que nos indicaste para que pueda recibir tu producto comprado. </li>
 
                 <li>El horario de entrega es de lunes a viernes de 10:00 a 19:00 hrs.</li>
@@ -64,10 +68,10 @@
 
             </ul>
         </articles>
-    </section>
 
-    </main>
-    <footer class="footer">
+
+    <div class="row">
+    <footer class="col-lg-12 footer">
         <img src="../Images/logocasa.png" alt="logocasaferio">
         <ul>
             <li><a href="">Inicio</a></li>
@@ -79,8 +83,9 @@
             <a href=""><img src="../Images/twitter.png" alt=""></a>
             <a href=""><img src="../Images/instagram_logo.webp" alt=""></a>
         </div>
-    </main>
      </footer>
-
+    </div>
+    </div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
