@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
-    <header class="header">
+    <div class="container-fluid px-0">
+    <header class="row header">
         <img src="../Images/logocasa.png" alt="logocasaferio">
         <nav>
            <ul>
@@ -20,23 +23,19 @@
            </ul>
         </nav>
     </header>
-    <main>
 
-    <section class="sostenibilidad_one">
-        <div>
-            <div class="tituloParrafo2">
+    <main class="row sostenibilidad_one">
+            <div class="col-lg-6 col-md-12 tituloParrafo2">
                 <h2>Reciclar muebles es ecológico</h2>
                 <a href="#medio_ambiente">Medio Ambiente</a>
-                </div>
-        </div>
-       <div>
-            <div class="tituloParrafo2">
+            </div>
+        
+            <div class="col-lg-6 col-md-12 tituloParrafo2">
                 <h2>Ahorro para tu bolsillo</h2>
                 <a href="#ahorra_dinero">No pagues más
-                </div></a>
-        </div>
-
-    </section>
+                </a>
+            </div>
+    </main>
 
     <section class="sostenibilidad_two">
         <div class="tituloParrafo2">
@@ -51,43 +50,31 @@
     </section>
 
 
-    <section class="sostenibilidad_three">
-            <div class="fotossostenibilidad">
-                <img src="../Images/carritocompra.jpg" alt="">
-                <img src="../Images/revisar.png" alt="">
-                <img src="../Images/planeta.jpg" alt="">
-            </div>
-            <ol>
-                <li>
-                    <div class="tituloParrafo4">
+    <section class="row sostenibilidad_three">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 sostitem1">
+                        <img class="fotossostenibilidad "src="../Images/carritocompra.jpg" alt="">
                         <h2 id="ahorra_dinero">¿Por qué comprar usado?</h2>
-                        <p>La principal razón es para que ahorres dinero, </p> 
-                        <p> mientras reduces tu huella de carbono.</p>
+                        <p>La principal razón es para que ahorres dinero, 
+                        mientras reduces tu huella de carbono.</p>
                     </div>
-                </li>
-                <li>
-                    <div class="tituloParrafo4">
-                        <h2>Revisión</h2>
-                        <p>Todos los productos son revisados con fotos del estado </p>
-                        <p> actual y real del producto que recibiras.</p>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 sostitem2">
+                        <img class="fotossostenibilidad" src="../Images/revisar.png" alt="">
+                        <h2>Paquetes</h2>
+                        <p>Todos los productos son revisados con fotos reales de lo que recibiras.</p>
                     </div>
-                </li>
-                <li>
-                    <div class="tituloParrafo4">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 sostitem3">
+                        <img class="fotossostenibilidad" src="../Images/planeta.jpg" alt="">
                         <h2 id="medio_ambiente">Medio Ambiente</h2>
-                        <p>Nos preocupamos de nuestros clientes y el planeta en el que </p> 
-                        <p>vívimos reduciendo con nuestro modelo de negocios la contaminación<p></p>
+                        <p>Nos preocupamos del planeta en el que vivimos reduciendo la contaminación de este.
+                        </p>
                     </div>
-                </li>
-            </ol>
-
      </section>
-        
- 
 
-    </main>
-
-    <footer class="footer">
+     <div class="row">
+    <footer class="col-lg-12 footer">
         <img src="../Images/logocasa.png" alt="logocasaferio">
         <ul>
             <li><a href="">Inicio</a></li>
@@ -100,7 +87,9 @@
             <a href=""><img src="../Images/instagram_logo.webp" alt=""></a>
         </div>
      </footer>
-    
+    </div>
+    </div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
 
