@@ -536,6 +536,18 @@
     font-size: 30px;
     padding: 10px;
     text-align:center;
+    animation-duration: 5s;
+    animation-name: casitaferio2;
+    animation-iteration-count: infinite;
+}
+
+@keyframes casitaferio2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .sugerencias_vendedor h3 {
@@ -583,16 +595,27 @@
 
 .sugerencias_comprador .comprador_prueba {
     display: inline-block;
-    background-color: rgb(200, 39, 39);
+    background-color: rgb(32, 152, 176);
     color: white;
     border-radius: 25px;
     font-weight: lighter;
     text-align:center;
-    padding: 10px;
-    margin: 50px;
+    padding: 8px;
+    margin: 30px;
     text-overflow: ellipsis;
     overflow: hidden;
-  
+    animation-duration: 5s;
+    animation-name: casitaferio2;
+    animation-iteration-count: infinite;
+}
+
+@keyframes casitaferio2 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
@@ -717,6 +740,18 @@
 
 /*----- CONTACTO -----*/
 
-.main_contacto {
-    background-color: #F4F4F4;
+
+
+.formita {
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+.form-label {
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 10px;
 }
