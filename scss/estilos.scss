@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital@1&family=Playfair+Display:ital@1&display=swap');
+
+/*----HEADER/NAV-----*/
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #659dbd;
+    
+    nav ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    
+    li {
+    margin: 15px;
+
+    a{
+        text-decoration: none;
+        color: white;
+    
+    img {
+            width: 100px;
+            height: 100px;
+    }
+}
+}
+}
+    }
+
+    
+/*---- MAIN ----*/
+
+
+
+
+.hero {
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.117), rgba(0, 0, 0, 0.194)), url("../Images/portada1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+    h1{
+    font-size: 60px;
+    font-weight: bold;
+
+
+    p{
+    font-size: 20px;
+    color: red;
+
+
+}
+    }
+}
+
+
+
+
+
+
+.section_extra {
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.405), rgba(0, 0, 0, 0.405)), url(../Images/portada3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    div > .tituloParrafo2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+    a {
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 30px;
+    line-height: 100px;
+    border: 2px solid;
+
+}
+    }
+}
+
+/*---- FOOTER ---- */
+
+
+
+.footer {
+    background-color: rgb(68, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 70px;
+        height: auto;
+        border-radius: 15px;
+
+    ul {
+    list-style: none;
+
+    li {
+        margin: 1px;
+    
+    a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px pink;
+
+    a:hover{
+        color: pink;
+        transition: 1s;
+        text-shadow: none;
+
+
+
+
+
+
+
+
+  
+
+
+    }
+}
+    }
+}
+}
+    }
+
