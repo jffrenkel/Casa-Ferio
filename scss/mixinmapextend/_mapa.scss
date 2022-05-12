@@ -1,0 +1,57 @@
+
+
+$profiles: (
+    home: rgb(101, 101, 195),
+    sostenibilidad: rgb(222, 78, 78),
+    sugerencia: rgb(46, 84, 139),
+    nosotros: rgb(9, 9, 120),
+    contacto: yellow,
+
+);
+
+@each $profile, $bgcolor in $profiles {
+    .profile-link--#{$profile}:hover {
+        background: $bgcolor;
+    }
+}
+
+.home {
+    color: map-get($profiles, home);
+}
+
+
+$primary: blue;
+$secondary: red;
+$error: red;
+$info: yellow;
+
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error,
+    "info": $info,
+    "blue": blue,
+    "red": red,
+    "lightred": rgb(243, 59, 59),
+    "yellow": yellow,
+    "gray": gray,
+    "white": white,
+    "purple": purple,
+);
+
+@debug map-get($colors, "purple");
+@debug map-has-key($colors, "secondary");
+
+.test-btn {
+    background-color: map-get($colors, "purple");
+
+}
+
+@each $key, $val in $colors {
+    .text-#{key} {
+        color: $val
+    }
+    .bg-#{$key} {
+        background-color: $val;
+    }
+}

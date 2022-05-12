@@ -1,24 +1,142 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital@1&family=Playfair+Display:ital@1&display=swap");
+p {
+  color: blue; }
+
+.profile-link--home:hover {
+  background: #6565c3; }
+
+.profile-link--sostenibilidad:hover {
+  background: #de4e4e; }
+
+.profile-link--sugerencia:hover {
+  background: #2e548b; }
+
+.profile-link--nosotros:hover {
+  background: #090978; }
+
+.profile-link--contacto:hover {
+  background: yellow; }
+
+.home {
+  color: #6565c3; }
+
+.test-btn {
+  background-color: purple; }
+
+.text-key {
+  color: blue; }
+
+.bg-primary {
+  background-color: blue; }
+
+.text-key {
+  color: red; }
+
+.bg-secondary {
+  background-color: red; }
+
+.text-key {
+  color: red; }
+
+.bg-error {
+  background-color: red; }
+
+.text-key {
+  color: yellow; }
+
+.bg-info {
+  background-color: yellow; }
+
+.text-key {
+  color: blue; }
+
+.bg-blue {
+  background-color: blue; }
+
+.text-key {
+  color: red; }
+
+.bg-red {
+  background-color: red; }
+
+.text-key {
+  color: #f33b3b; }
+
+.bg-lightred {
+  background-color: #f33b3b; }
+
+.text-key {
+  color: yellow; }
+
+.bg-yellow {
+  background-color: yellow; }
+
+.text-key {
+  color: gray; }
+
+.bg-gray {
+  background-color: gray; }
+
+.text-key {
+  color: white; }
+
+.bg-white {
+  background-color: white; }
+
+.text-key {
+  color: purple; }
+
+.bg-purple {
+  background-color: purple; }
+
+/* ---- definiri el mixin y luego usarlo */
+img {
+  border-radius: 15px;
+  width: 50px;
+  height: auto; }
+
+.banner {
+  width: 100px;
+  height: 100px; }
+
+/*variables */
 /*----HEADER/NAV-----*/
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #659dbd; }
-  .header nav ul {
+  background-color: #659dbd;
+  height: 15vh; }
+  .header img, .footer img {
+    width: 100px;
+    height: auto; }
+  .header nav ul, .footer nav ul {
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: end;
     list-style: none; }
-    .header nav ul li {
+    .header nav ul li, .footer nav ul li {
       margin: 15px; }
-      .header nav ul li a {
+      .header nav ul li a, .footer nav ul li a {
         text-decoration: none;
         color: white; }
-        .header nav ul li a img {
-          width: 100px;
-          height: 100px; }
 
 /*---- MAIN ----*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c2e812; }
+  main h1 {
+    font-size: -30px; }
+  main h2 {
+    font-size: 0px; }
+  main p {
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; }
+
 .hero {
   color: white;
   height: 80vh;
@@ -36,7 +154,7 @@
     font-weight: bold; }
     .hero h1 p {
       font-size: 20px;
-      color: red; }
+      color: white; }
 
 .section_extra {
   color: white;
@@ -64,7 +182,6 @@
       line-height: 100px;
       border: 2px solid; }
 
-      
 /*---- FOOTER ---- */
 .footer {
   background-color: #441616;

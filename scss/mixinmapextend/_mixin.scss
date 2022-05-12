@@ -1,0 +1,40 @@
+
+
+
+/* ---- definiri el mixin y luego usarlo */
+
+@mixin formatter($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+img{
+    border-radius: 15px;
+    @include formatter(50px, auto );
+}
+
+.banner {
+    @include formatter(100px,100px);
+}
+
+@mixin titulos($size){
+    h1 {
+        font-size: $size - 60px;
+    }
+    h2 {
+        font-size: $size - 30px;
+    }
+}
+
+@mixin textos ($font-size, $color, $text-transform, $alinear) {
+    font-size: $font-size;
+    color: $color;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@mixin d-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital@1&family=Playfair+Display:ital@1&display=swap');
+@import "pages/contacto";
+@import "pages/galeria";
+@import "pages/nosotros";
+@import "mixinmapextend/mapa";
+@import "mixinmapextend/mixin";
+
+/*variables */
+
+$salmon: #ff94;
+$lemon: #c2e812;
+$fuentes: 30px;
+
 
 /*----HEADER/NAV-----*/
 
@@ -9,8 +21,15 @@
     justify-content: space-between;
     align-items: center;
     background-color: #659dbd;
-    
+    height: 15vh;
+
+    img {
+        width: 100px;
+        height: auto;
+
+    }
     nav ul{
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: end;
     list-style: none;
@@ -22,10 +41,7 @@
         text-decoration: none;
         color: white;
     
-    img {
-            width: 100px;
-            height: 100px;
-    }
+    
 }
 }
 }
@@ -34,7 +50,16 @@
     
 /*---- MAIN ----*/
 
+main {
+    @include titulos($fuentes);
 
+@include d-column;
+background-color: $lemon;
+
+p {
+    @include textos(25px, white, none, center);
+}
+}
 
 
 .hero {
@@ -87,6 +112,8 @@
     font-weight: bold;
     text-align: center;
 
+    
+
     a {
     background-color: pink;
     color: white;
@@ -106,6 +133,7 @@
 
 
 .footer {
+    @extend .header;
     background-color: rgb(68, 22, 22);
     display: flex;
     justify-content: space-between;
@@ -118,7 +146,7 @@
 
     ul {
     list-style: none;
-
+    
     li {
         margin: 1px;
     
@@ -133,21 +161,13 @@
         color: pink;
         transition: 1s;
         text-shadow: none;
-
-
-
-
-
-
-
-
-  
-
-
     }
 }
     }
 }
 }
     }
+
+
+
 
