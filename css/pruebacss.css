@@ -1,6 +1,303 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital@1&family=Playfair+Display:ital@1&display=swap");
-p {
-  color: blue; }
+/*----- CONTACTO -----*/
+.main_contacto {
+  background-color: white; }
+  .main_contacto .formita {
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 50px; }
+    .main_contacto .formita .form-label {
+      margin-top: 5px;
+      font-weight: bold;
+      border-radius: 10px; }
+
+/*----- NOSOTROS ----- */
+.sobre_nosotros {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 80vh;
+  font-size: 40px;
+  justify-content: center;
+  background-color: #F4F4F4; }
+  .sobre_nosotros p {
+    color: black;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center; }
+
+.equipo_principio {
+  background-color: white; }
+  .equipo_principio .equipo_parrafo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px; }
+    .equipo_principio .equipo_parrafo .equipo_parrafo h2 {
+      margin-top: 100px;
+      font-size: 60px; }
+  .equipo_principio .equipo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: white;
+    font-size: 25px;
+    font-weight: lighter; }
+    .equipo_principio .equipo .equipo1 {
+      margin-top: 50px; }
+      .equipo_principio .equipo .equipo1 img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+        border-radius: 30px; }
+    .equipo_principio .equipo .equipo2 {
+      margin-top: 50px; }
+      .equipo_principio .equipo .equipo2 img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+        border-radius: 30px;
+        image-rendering: high-quality; }
+
+.asi .todo_dondeestamos {
+  background-color: #F4F4F4;
+  margin-left: 2px;
+  margin-bottom: 50px; }
+  .asi .todo_dondeestamos .donde_estamos {
+    margin-top: 50px;
+    background-color: #F4F4F4; }
+
+/*----- Sostenibilidad -----*/
+.sostenibilidad_one {
+  color: white;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.507)), url(../Images/portada2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .sostenibilidad_one .tituloParrafo2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold; }
+    .sostenibilidad_one .tituloParrafo2 h2 {
+      font-size: 30px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .sostenibilidad_one .tituloParrafo2 a {
+      background-color: pink;
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      padding: 10px;
+      border-radius: 30px;
+      line-height: 100px;
+      border: 2px solid; }
+
+.sostenibilidad_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-color: #F4F4F4;
+  height: 80vh; }
+  .sostenibilidad_two .tituloParrafo3 {
+    font-size: 25px;
+    font-weight: lighter;
+    justify-content: center; }
+    .sostenibilidad_two .tituloParrafo3 h2 {
+      height: 60px;
+      font-weight: bold; }
+      .sostenibilidad_two .tituloParrafo3 h2 p {
+        font-weight: lighter;
+        margin-top: 5px; }
+        .sostenibilidad_two .tituloParrafo3 h2 p a {
+          background-color: pink;
+          color: white;
+          text-decoration: none;
+          font-size: 30px;
+          padding: 10px;
+          border-radius: 10px;
+          margin-top: 50px;
+          text-align: center;
+          justify-content: center;
+          line-height: 120px;
+          font-weight: lighter; }
+
+.sostenibilidad_three {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .sostenibilidad_three .sostenibilidad_three {
+    display: flex;
+    flex-direction: column; }
+
+.sostenibilidad_three .sostitem1 {
+  font-size: 20px; }
+
+.sostenibilidad_three .sostitem2 {
+  font-size: 20px; }
+
+.sostenibilidad_three .sostitem3 {
+  font-size: 20px; }
+
+.sostenibilidad_three h2 {
+  font-weight: bold; }
+
+.sostenibilidad_three p {
+  font-weight: lighter; }
+
+.sostenibilidad_three img {
+  border-radius: 150px;
+  width: 150px;
+  height: auto; }
+
+/*----- SUGERENCIAS -----*/
+.sugerencias_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.577), rgba(0, 0, 0, 0.507)), url(../Images/preba1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #F4F4F4;
+  height: 80vh; }
+  .sugerencias_one h1 {
+    font-weight: bold;
+    font-size: 50px; }
+    .sugerencias_one h1 p {
+      font-size: 25px;
+      font-weight: lighter; }
+
+.sugerencias_vendedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  contain: content; }
+  .sugerencias_vendedor .suge {
+    margin-top: 45px; }
+    .sugerencias_vendedor .suge .vendedor_prueba {
+      display: inline-block;
+      background-color: #28d975;
+      color: white;
+      border-radius: 25px;
+      font-weight: lighter;
+      font-size: 30px;
+      padding: 10px;
+      text-align: center;
+      animation-duration: 5s;
+      animation-name: casitaferio2;
+      animation-iteration-count: infinite;
+      display: flex;
+      font-size: 40px;
+      font-weight: bold;
+      flex-direction: column;
+      margin-bottom: 50px; }
+      .sugerencias_vendedor .suge .vendedor_prueba h3 {
+        display: flex;
+        font-size: 40px;
+        font-weight: bold;
+        flex-direction: column; }
+
+@keyframes casitaferio2 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .sugerencias_vendedor ul {
+    display: inline;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: start;
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: lighter;
+    align-items: start; }
+    .sugerencias_vendedor ul li {
+      margin-top: 20px; }
+
+.sugerencias_comprador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  background-color: #F4F4F4;
+  contain: content; }
+  .sugerencias_comprador .suge2 {
+    margin-top: 45px; }
+    .sugerencias_comprador .suge2 .comprador_prueba {
+      display: inline-block;
+      background-color: #2098b0;
+      color: white;
+      border-radius: 25px;
+      font-weight: lighter;
+      font-size: 30px;
+      padding: 10px;
+      text-align: center;
+      animation-duration: 5s;
+      animation-name: casitaferio2;
+      animation-iteration-count: infinite;
+      display: flex;
+      font-size: 40px;
+      font-weight: bold;
+      flex-direction: column;
+      margin-bottom: 50px; }
+      .sugerencias_comprador .suge2 .comprador_prueba h3 {
+        display: flex;
+        font-size: 40px;
+        font-weight: bold;
+        flex-direction: column; }
+
+@keyframes casitaferio2 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .sugerencias_comprador ul {
+    display: inline;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: start;
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: lighter;
+    align-items: start; }
+    .sugerencias_comprador ul li {
+      margin-top: 20px; }
 
 .profile-link--home:hover {
   background: #6565c3; }
@@ -105,8 +402,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #659dbd;
-  height: 15vh; }
+  background-color: #659dbd; }
   .header img, .footer img {
     width: 100px;
     height: auto; }
@@ -114,7 +410,9 @@ img {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: end;
-    list-style: none; }
+    list-style: none;
+    align-items: center;
+    margin-bottom: 5px; }
     .header nav ul li, .footer nav ul li {
       margin: 15px; }
       .header nav ul li a, .footer nav ul li a {
@@ -156,6 +454,98 @@ main {
       font-size: 20px;
       color: white; }
 
+/*-------------- COMO FUNCIONA -------------*/
+.como_funciona .howitworks {
+  animation-duration: 3s;
+  animation-name: Comofunciona;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 50px; }
+
+@keyframes Comofunciona {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .como_funciona .howitworks .fondo_color {
+    display: inline-block;
+    color: black;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 15px;
+    text-align: justify;
+    margin-top: 50px; }
+
+.section_one {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: space-around;
+  background-position: center;
+  background-color: white; }
+  .section_one .productos {
+    transition: height 2s;
+    background-color: #c82727;
+    width: auto;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+    width: 150px;
+    height: 100px;
+    transition: height 2s, width 1s; }
+    .section_one .productos .productos:hover {
+      height: 100px;
+      width: 200px; }
+  .section_one .canales_venta {
+    background-color: #ff7300;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 3px;
+    color: white;
+    width: 180px;
+    height: 100px;
+    transition: height 2s, width 1s; }
+    .section_one .canales_venta .canales_venta:hover {
+      height: 100px;
+      width: 200px; }
+  .section_one .despacho {
+    background-color: #23af60;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+    width: 150px;
+    height: 100px;
+    transition: height 2s, width 1s; }
+    .section_one .despacho .despacho:hover {
+      height: 100px;
+      width: 200px; }
+  .section_one div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; }
+    .section_one div img {
+      border-radius: 150px;
+      width: auto;
+      height: 250px;
+      margin-top: 10px; }
+  .section_one .tituloParrafo {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 50px; }
+    .section_one .tituloParrafo h2 {
+      line-height: 100px;
+      font-size: 30px; }
+      .section_one .tituloParrafo h2 p {
+        margin-top: 25px;
+        font-weight: lighter; }
+
+/*-------- COMO FUNCIONA ---------*/
 .section_extra {
   color: white;
   height: 80vh;
@@ -188,21 +578,27 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .footer img {
-    width: 70px;
+  .footer .logito {
+    width: 300px;
     height: auto;
-    border-radius: 15px; }
-    .footer img ul {
-      list-style: none; }
-      .footer img ul li {
-        margin: 1px; }
-        .footer img ul li a {
-          text-decoration: none;
-          color: white;
-          font-weight: lighter;
-          text-transform: uppercase;
-          text-shadow: 2px 2px 2px pink; }
-          .footer img ul li a a:hover {
-            color: pink;
-            transition: 1s;
-            text-shadow: none; }
+    border-radius: 50px; }
+  .footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .footer ul li {
+      margin: 10px; }
+      .footer ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: lighter;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 2px pink; }
+        .footer ul li a a:hover {
+          color: pink;
+          transition: 1s;
+          text-shadow: none; }
+  .footer .arre1 {
+    width: auto;
+    height: 40px; }

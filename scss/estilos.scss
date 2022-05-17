@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital@1&family=Playfair+Display:ital@1&display=swap');
+
 @import "pages/contacto";
-@import "pages/galeria";
 @import "pages/nosotros";
+@import "pages/sostenibilidad";
+@import "pages/sugerencia";
 @import "mixinmapextend/mapa";
 @import "mixinmapextend/mixin";
+
+
 
 /*variables */
 
@@ -21,7 +25,6 @@ $fuentes: 30px;
     justify-content: space-between;
     align-items: center;
     background-color: #659dbd;
-    height: 15vh;
 
     img {
         width: 100px;
@@ -33,6 +36,8 @@ $fuentes: 30px;
     display: flex;
     justify-content: end;
     list-style: none;
+    align-items: center;
+    margin-bottom: 5px;
     
     li {
     margin: 15px;
@@ -90,6 +95,160 @@ p {
 }
 
 
+/*-------------- COMO FUNCIONA -------------*/
+
+
+
+
+
+.como_funciona .howitworks {
+    animation-duration: 3s;
+    animation-name: Comofunciona;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 50px;
+
+
+    @keyframes Comofunciona {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fondo_color {
+        display: inline-block;
+        color: black;
+        border-radius: 25px;
+        font-weight: bold;
+        font-size: 35px;
+        padding: 15px;
+        text-align:justify;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+.section_one {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    background-position: center;
+    background-color: white;  
+
+
+    .productos {
+        transition: height 2s;
+        background-color:rgb(200, 39, 39);
+        width: auto;
+        display: inline-block;
+        border-radius: 30px;
+        padding: 5px;
+        color: white;
+        width: 150px;
+        height: 100px;
+        transition: height 2s, width 1s;
+    
+
+    .productos {
+        &:hover {
+            height: 100px;
+            width: 200px;
+        }
+}
+    }
+
+
+
+    .canales_venta {
+        background-color: rgb(255, 115, 0);
+        display: inline-block;
+        border-radius: 30px;
+        padding: 3px;
+        color: white;
+        width: 180px;
+        height: 100px;
+        transition: height 2s, width 1s;
+    
+
+    .canales_venta {
+        &:hover {
+            height: 100px;
+            width: 200px;
+        }
+    }
+}
+
+    .despacho {
+        background-color:#23af60;
+        display: inline-block;
+        border-radius: 30px;
+        padding: 5px;
+        color: white;
+        width: 150px;
+        height: 100px;
+        transition: height 2s, width 1s;
+
+
+    .despacho {
+        &:hover {
+        height: 100px;
+        width: 200px;
+        } 
+}
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+
+
+    img {
+        border-radius: 150px;
+        width: auto;
+        height: 250px;
+        margin-top: 10px;
+}
+    }
+
+    .tituloParrafo {
+        text-decoration: none;
+        font-size: 20px;
+        margin: 50px;
+
+
+
+    h2 {
+        line-height: 100px;
+        font-size: 30px;
+    
+
+
+     p {
+        margin-top: 25px;
+        font-weight: lighter;
+
+     }
+    }
+}
+    }
+
+
+
+
+
+
+/*-------- COMO FUNCIONA ---------*/
 
 
 
@@ -139,16 +298,19 @@ p {
     justify-content: space-between;
     align-items: center;
 
-    img {
-        width: 70px;
+    .logito {
+        width: 300px;
         height: auto;
-        border-radius: 15px;
-
+        border-radius: 50px;
+    }
     ul {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
     li {
-        margin: 1px;
+        margin: 10px;
     
     a {
     text-decoration: none;
@@ -161,12 +323,20 @@ p {
         color: pink;
         transition: 1s;
         text-shadow: none;
+        }
     }
 }
     }
-}
-}
+
+    .arre1 {
+        width: auto;
+        height: 40px;
+
     }
+    }
+
+
+    
 
 
 
