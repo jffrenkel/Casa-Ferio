@@ -111,7 +111,10 @@
   background-position: center;
   background-size: cover;
   background-color: #F4F4F4;
-  height: 80vh; }
+  height: 80vh;
+  width: auto;
+  margin-right: -15px;
+  padding-right: 15px; }
   .sostenibilidad_two .tituloParrafo3 {
     font-size: 25px;
     font-weight: lighter;
@@ -122,8 +125,7 @@
       .sostenibilidad_two .tituloParrafo3 h2 p {
         font-weight: lighter;
         margin-top: 5px; }
-        .sostenibilidad_two .tituloParrafo3 h2 p a {
-          background-color: pink;
+        .sostenibilidad_two .tituloParrafo3 h2 p .ados1 {
           color: white;
           text-decoration: none;
           font-size: 30px;
@@ -179,7 +181,6 @@
   justify-content: center;
   text-align: center;
   color: white;
-  width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.577), rgba(0, 0, 0, 0.507)), url(../Images/preba1.jpg);
   background-position: center;
   background-size: cover;
@@ -206,16 +207,12 @@
     margin-top: 45px; }
     .sugerencias_vendedor .suge .vendedor_prueba {
       display: inline-block;
-      background-color: #28d975;
       color: white;
-      border-radius: 25px;
+      background-color: rgba(70, 47, 47, 0.608);
+      border-radius: 15px;
       font-weight: lighter;
       font-size: 30px;
       padding: 10px;
-      text-align: center;
-      animation-duration: 5s;
-      animation-name: casitaferio2;
-      animation-iteration-count: infinite;
       display: flex;
       font-size: 40px;
       font-weight: bold;
@@ -238,12 +235,17 @@
     flex-direction: column;
     text-decoration: none;
     text-align: start;
-    margin-left: 60px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
-    align-items: start; }
+    align-items: start;
+    color: black;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: left;
+    padding: 40px; }
     .sugerencias_vendedor ul li {
-      margin-top: 20px; }
+      margin-top: 10px;
+      line-height: 50px; }
 
 .sugerencias_comprador {
   display: flex;
@@ -260,16 +262,13 @@
     margin-top: 45px; }
     .sugerencias_comprador .suge2 .comprador_prueba {
       display: inline-block;
-      background-color: #2098b0;
+      background-color: rgba(168, 72, 72, 0.603);
       color: white;
-      border-radius: 25px;
+      border-radius: 15px;
       font-weight: lighter;
       font-size: 30px;
       padding: 10px;
       text-align: center;
-      animation-duration: 5s;
-      animation-name: casitaferio2;
-      animation-iteration-count: infinite;
       display: flex;
       font-size: 40px;
       font-weight: bold;
@@ -293,11 +292,19 @@
     text-decoration: none;
     text-align: start;
     margin-left: 60px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
-    align-items: start; }
+    align-items: start;
+    color: black;
+    border-radius: 20px;
+    margin-left: -10px;
+    padding-left: 10px;
+    justify-content: center;
+    text-align: left;
+    padding: 40px; }
     .sugerencias_comprador ul li {
-      margin-top: 20px; }
+      margin-top: 10px;
+      line-height: 50px; }
 
 .profile-link--home:hover {
   background: #6565c3; }
@@ -397,12 +404,14 @@ img {
   height: 100px; }
 
 /*variables */
+/*-----------------------------------------*/
 /*----HEADER/NAV-----*/
 .header, .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #659dbd; }
+  background-color: #659dbd;
+  padding-right: 15px; }
   .header img, .footer img {
     width: 100px;
     height: auto; }
@@ -442,6 +451,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.117), rgba(0, 0, 0, 0.194)), url("../Images/portada1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -453,6 +463,17 @@ main {
     .hero h1 p {
       font-size: 20px;
       color: white; }
+  .hero a {
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 15px;
+    line-height: 10px;
+    border: 2px solid;
+    list-style: none; }
 
 /*-------------- COMO FUNCIONA -------------*/
 .como_funciona .howitworks {
@@ -545,7 +566,7 @@ main {
         margin-top: 25px;
         font-weight: lighter; }
 
-/*-------- COMO FUNCIONA ---------*/
+/*-------- COMO FUNCIONA EXTRA  ---------*/
 .section_extra {
   color: white;
   height: 80vh;
@@ -579,23 +600,23 @@ main {
   justify-content: space-between;
   align-items: center; }
   .footer .logito {
-    width: 300px;
+    width: 70px;
     height: auto;
     border-radius: 50px; }
   .footer ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
+    list-style: none; }
     .footer ul li {
-      margin: 10px; }
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
       .footer ul li a {
         text-decoration: none;
         color: white;
         font-weight: lighter;
         text-transform: uppercase;
         text-shadow: 2px 2px 2px pink; }
-        .footer ul li a a:hover {
+        .footer ul li aa:hover {
           color: pink;
           transition: 1s;
           text-shadow: none; }

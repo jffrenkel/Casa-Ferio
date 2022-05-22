@@ -58,6 +58,9 @@
     background-size: cover;
     background-color: #F4F4F4;
     height: 80vh;
+    width: auto;
+    margin-right: -15px;
+    padding-right: 15px;
 
 
     .tituloParrafo3 {
@@ -77,8 +80,9 @@
         margin-top: 5px;
 
 
-     a {
-        background-color: pink;
+     .ados1 {
+        $theme-colors: ( primary: red, );
+        $background-color: pink;
         color: white;
         text-decoration: none;
         font-size: 30px;

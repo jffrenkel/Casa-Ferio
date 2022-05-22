@@ -9,13 +9,21 @@
     <title>CasaFerio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/pruebacss.css?v=2">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N0NELVMYGN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N0NELVMYGN');
+</script>
 </head>
 
 <body>
     <div class="container-fluid px-0">
         <div class="row">
-            
-   
+          <header></header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark titulos">
             <img src="../Images/logocasa.png" alt="logocasaferio">
             <div class="container-fluid">
@@ -24,7 +32,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse ms-auto" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="./Pages/sostenibilidad.html">Sostenibilidad</a>
                   </li>
@@ -45,13 +53,14 @@
             </div>
           </nav>
 
-</div>
+          </div>
 
     <main class="row">
 
         <section class="col-lg-12 col-md-12 col-sm-12 hero">
             <h1>Casa Ferio</h1>
             <p>Compra y Vende todo lo que quieras para tu casa</p>
+            <a class="tienda" href="">Tienda</a>
             
         </section>
     </main>
@@ -108,20 +117,19 @@
 
     <div class="row">
     <footer class="col-lg-12 col-md-12 col-sm-12 footer">
-        <img src="./Images/logocasa.png" alt="logocasaferio">
+        <img class="logito" src="./Images/logocasa.png" alt="logocasaferio">
         <ul>
             <li><a href="">Inicio</a></li>
-            <li><a href="">Preguntas</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="../Pages/contacto.html">Preguntas</a></li>
+            <li><a href="./Pages/contacto.html">Contacto</a></li>
         </ul>
         <div>
-            <a href=""><img class="arre1" src="./Images/facebook2.png" alt=""></a>
-            <a href=""><img class="arre1" src="./Images/twitter2.png" alt=""></a>
-            <a href=""><img class="arre1" src="./Images/instagram2.png" alt=""></a>
+            <a href="https://www.facebook.com"><img class="arre1" src="./Images/facebook2.png" alt=""></a>
+            <a href="https://www.twitter.com"><img class="arre1" src="./Images/twitter2.png" alt=""></a>
+            <a href="https://www.instagram.com/casaferio/?hl=es-la"><img class="arre1" src="./Images/instagram2.png" alt=""></a>
         </div>
     
      </footer>
-    </div>
     </div>
     </div>
 

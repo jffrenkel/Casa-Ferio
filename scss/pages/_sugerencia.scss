@@ -11,7 +11,6 @@
     justify-content: center;
     text-align: center;
     color: white;
-    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.577), rgba(0, 0, 0, 0.507)), url(../Images/preba1.jpg);
     background-position: center;
     background-size: cover;
@@ -51,16 +50,12 @@ contain: content;
 
     .vendedor_prueba {
         display: inline-block;
-        background-color: #28d975;
         color: white;
-        border-radius: 25px;
+        background-color: rgba(70, 47, 47, 0.608);
+        border-radius: 15px;
         font-weight: lighter;
         font-size: 30px;
         padding: 10px;
-        text-align:center;
-        animation-duration: 5s;
-        animation-name: casitaferio2;
-        animation-iteration-count: infinite;
         display: flex;
         font-size: 40px;
         font-weight: bold;
@@ -96,15 +91,23 @@ contain: content;
         flex-direction: column;
         text-decoration: none;
         text-align: start;
-        margin-left: 60px;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: lighter;
         align-items: start;
+        color: black;
+        border-radius: 20px;
+        justify-content: center;
+        text-align: left;
+        padding: 40px;
+        
+        
 
 
 
      li {
-        margin-top: 20px;
+        margin-top: 10px;
+        line-height: 50px;
+        
 
     }
 }
@@ -125,6 +128,7 @@ height: auto;
 background-color: #F4F4F4;
 contain: content;
 
+
     .suge2 {
         margin-top: 45px;
 
@@ -132,16 +136,13 @@ contain: content;
 
     .comprador_prueba {
         display: inline-block;
-        background-color: rgb(32, 152, 176);
-        color: white;
-        border-radius: 25px;
+        background-color: rgba(168, 72, 72, 0.603);
+        color: rgb(255, 255, 255);
+        border-radius: 15px;
         font-weight: lighter;
         font-size: 30px;
         padding: 10px;
         text-align:center;
-        animation-duration: 5s;
-        animation-name: casitaferio2;
-        animation-iteration-count: infinite;
         display: flex;
         font-size: 40px;
         font-weight: bold;
@@ -179,13 +180,23 @@ contain: content;
         text-decoration: none;
         text-align: start;
         margin-left: 60px;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: lighter;
-        align-items: start;
+        align-items: start; 
+        color: black;
+        border-radius: 20px;
+        margin-left: -10px;
+        padding-left: 10px;
+        justify-content: center;
+        text-align: left;
+        padding: 40px;
+
+
 
 
     li {
-        margin-top: 20px;
+        margin-top: 10px;
+        line-height: 50px;
 }
     }
 }
